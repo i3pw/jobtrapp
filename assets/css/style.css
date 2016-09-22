@@ -1,0 +1,193 @@
+/*
+View/table.php
+Filtreleme alanındaki input arkaplanı düzeltimi için
+*/
+.bgFix {background-color: #5BC0DE!important; color: #fff!important;}
+
+/*
+ Buton stilleri düzeltimi için
+*/
+.btn-default,.btn-primary,.btn-success,.btn-info,.btn-warning,.btn-danger {
+    -webkit-box-shadow: 2px 3px 0px rgba(4, 4, 4, 0.3);
+    -moz-box-shadow:    2px 3px 0px rgba(4, 4, 4, 0.3);
+    box-shadow:         2px 3px 0px rgba(4, 4, 4, 0.3);
+}
+
+.btn-default:active,.btn-primary:active,.btn-success:active,.btn-info:active,.btn-warning:active,.btn-danger:active {
+    margin-top: 3px;
+    margin-bottom: -3px;
+}
+.tLfix:active {
+    margin-top: 0!important;
+    margin-bottom: 0!important;
+}
+.tLfix {
+    box-shadow: none!important;
+}
+
+.row{
+    margin-left:0;
+    margin-right:0;
+}
+
+.centered {
+    float: none;
+    margin:50px auto;
+}
+
+.tblTh tbody tr td:first-child {
+    width: 5%;
+}
+
+/* Comments */
+.chatScroll {
+    overflow-y: auto;
+    height: 285px;
+}
+.chat
+{
+    list-style: none;
+    margin: 0;
+    padding: 0;
+
+}
+
+.chat li
+{
+    margin-bottom: 10px;
+    padding-bottom: 5px;
+    border-bottom: 1px dotted #B3A9A9;
+}
+
+.chat li:odd{
+    background-color:#e9e9e9;
+}
+
+
+.chat li:even{
+    background-color:#999;
+}
+
+
+.chat li.left .chat-body
+{
+    margin-left: 60px;
+}
+
+.chat li.right .chat-body
+{
+    margin-right: 60px;
+}
+
+
+.chat li .chat-body p
+{
+    margin: 0;
+    color: #777777;
+}
+
+.panel .slidedown .glyphicon, .chat .glyphicon
+{
+    margin-right: 5px;
+}
+
+.chat .panel-body
+{
+    overflow-y: scroll;
+    height: 250px;
+}
+
+::-webkit-scrollbar-track
+{
+    -webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.3);
+    background-color: #F5F5F5;
+}
+
+::-webkit-scrollbar
+{
+    width: 12px;
+    background-color: #F5F5F5;
+}
+
+::-webkit-scrollbar-thumb
+{
+    -webkit-box-shadow: inset 0 0 6px rgba(0,0,0,.3);
+    background-color: #555;
+}
+
+.notification-ico:after {
+    position: absolute;
+    content: attr(data-count);
+    margin-left: -6.8775px;
+    margin-top: -6.8775px;
+    padding: 0 4px;
+    min-width: 13.755px;
+    height: 13.755px;
+    line-height: 13.755px;
+    background: red;
+    border-radius: 10px;
+    color: #fff;
+    text-align: center;
+    vertical-align: middle;
+    font-size: 11.004px;
+    font-weight: 600;
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+
+.widget-notifications .notification {
+    position:relative;
+    padding:7px 12px
+}
+.widget-notifications .notification+.notification {
+    border-top:1px solid #e4e4e4
+}
+.widget-notifications .notifications-list {
+    overflow:hidden;
+    position:relative
+}
+.widget-notifications .notification-ago,.widget-notifications .notification-description,.widget-notifications .notification-title {
+    display:block;
+    margin-right:35px
+}
+.widget-notifications .notification-title {
+    font-size:11px;
+    font-weight:700;
+    padding-bottom:1px
+}
+.widget-notifications .notification-description {
+    font-size:11px;
+    color:#666
+}
+.widget-notifications .notification-ago {
+    font-size:11px;
+    font-style:italic;
+    color:#bbb
+}
+.widget-notifications .notification-icon {
+    width:26px;
+    height:26px;
+    line-height:26px;
+    text-align:center;
+    border-radius:2px;
+    position:absolute;
+    top:50%;
+    right:0;
+    margin:-13px 12px 0 0;
+    font-size:14px
+}
+.widget-notifications .notifications-link {
+    text-align:center;
+    padding:8px 0!important;
+    border-top:1px solid #e4e4e4;
+    display:block;
+    text-decoration:none!important;
+    font-size:10px;
+    font-weight:800;
+    color:#999;
+    line-height:18px!important;
+    height:auto!important
+}
+.widget-notifications .notifications-link:hover {
+    background:#f4f4f4;
+    color:#555
+}

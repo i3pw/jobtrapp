@@ -1,0 +1,15 @@
+*** 1.1.0
+    - moduler fixes
+    - changed design
+
+*** 1.0.1
+    - some security fixes
+
+*** 1.0.0
+    - support admin manegment
+    - support positions
+    - select work time
+    - bug fixes
+
+*** 0.1.0 and 0.9.0
+    - Initial stages of project
