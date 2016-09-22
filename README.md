@@ -31,7 +31,7 @@ The functionality of the system includes:
 ## Default Admin Informations
 
 * Username: admin
-* Password 123456demo
+* Password: 123456demo
 
 ## To do List!
 
@@ -46,3 +46,4 @@ The functionality of the system includes:
 - [ ] Add general settings for users
 - [ ] Add archive list
 - [ ] Update front-end
+- [ ] Fix db
