@@ -47,3 +47,8 @@ The functionality of the system includes:
 - [ ] Add archive list
 - [ ] Update front-end
 - [ ] Fix db
+- [ ] Control function when someone want delete company, it've an active work?
+- [ ] Tasks pages must merge.
+
+## For Update Front-End
+You'll use **`views`** for front-end. Css or the other files in `assests`.
