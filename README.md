@@ -21,6 +21,11 @@ The functionality of the system includes:
 * Bootstrap
 * MySQL
 
+## Screenshots
+![1](Screenshot 23-20 .jpg)
+![2](Screenshot 23-22 .jpg)
+![3](Screenshot 23-25 .jpg)
+
 ## Installation
 
  1. Download or clone this repo into your local (If you're submitting a pull request, fork your own branch, fork repository and cloning your fork locally after your work is finished send a pull request.).
@@ -51,4 +56,4 @@ The functionality of the system includes:
 - [ ] Tasks pages must merge.
 
 ## For Update Front-End
-You'll use **`views`** for front-end. Css or the other files in `assests`.
+You'll use **`view`** for front-end. Css or the other files in `assests`.
