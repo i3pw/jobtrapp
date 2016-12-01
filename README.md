@@ -40,7 +40,7 @@ The functionality of the system includes:
 
 ## To do List!
 
-- [ ] Add Notification for Mini Chat on works detail page
+- [x] Add Notification for Mini Chat on works detail page
 - [ ] Support image when add a work on list
 - [ ] Add a additional features inputs on mini chat (like X cm width, Y cm height etc...).
 - [ ] Security update
